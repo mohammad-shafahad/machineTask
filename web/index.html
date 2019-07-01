@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="registeredcode.jsp" method="post" enctype="multipart/form-data">
+            <h2 style="text-align: center;">Registration Form</h2>
+            <table border="2" align="center">
+                <tr>
+                    <td>Name</td>
+                
+                <td>
+                    <input type="text" name="name" placeholder="Enter your name"/>
+                </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input type="email" name="email" placeholder="Enter  your email id"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>
+                        <input type="password" name="pwd" placeholder="Enter password"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile number</td>
+                    <td>
+                        <input type="number" name="mobile" placeholder="Enter mobile number"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Image</td>
+                    <td>
+                        <input type="file" name="image"/>
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="submit"/>
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
+        <h2 style="text-align: center;">     <a href="showdata.jsp">Show Data</a></h2>
+    </body>
+</html>
